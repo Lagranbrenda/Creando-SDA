@@ -1,0 +1,64 @@
+body {
+    background-image: url(pino.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+    
+
+.titulo{
+    padding-top: 5cm;
+    font-family:"Sofia", sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+    border-top: 10cm;
+    font-size: 50px;
+    color:rgb(206, 143, 61)
+    
+}
+h2{
+    font-family:"Sofia", sans-serif;
+    text-align: left;
+    font-size: 35px;
+    color:rgb(206, 143, 61)
+}
+
+#cocina1{
+    height: 10cm;
+    width: 10cm;
+    border-radius: 10%;
+    padding: 5cm;
+    size: 5cm;
+    border-color: brown;
+    
+}
+#cocina2{
+    height: 600px;
+    width: 600;
+    border-radius: 10%;
+    padding: 5cm;
+    resize: both;
+    border-color: brown
+}
+ c{
+    border-radius: 35%;
+    width: 300px;;
+ }
+div {
+    
+    background-color:madera;
+    viewport-fit: 50%;
+    border-width: 50;
+    
+}
+nav{
+    float: right;
+}
+nav ul li  {
+  list-style: none;
+  margin-left: 75px;
+  padding: 25px 0;
+  float: left;
+}
