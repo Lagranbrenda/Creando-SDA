@@ -76,12 +76,12 @@ body {
     flex-direction: row-reverse;
     background-color: rgba(0, 0, 0, 0.697);
     color: aliceblue;
-    font-size: larger;
+    font-size: large;
     padding-top: 2%;
     padding-bottom: 2%;
-    height: 250px;
+    height: 300px;
     font-family:'Bad Script', cursive;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 
 }
 .seguinos {
@@ -99,12 +99,24 @@ body {
     padding-top: 2%;
     text-align: center;
 }
+.enlace {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    background-color:black;         
+    border-radius: 5px;
+    padding-inline: 58px;
+    justify-content: center;
+    margin: 5px;
+    width: 70%;  
+        
+}
 .galeria{
     display: flex;
     flex-direction: column;
 }
 .mapa{
-    font-size: 45px;
+    font-size: 30px;
     color:blueviolet;
     text-align: center; 
 }
